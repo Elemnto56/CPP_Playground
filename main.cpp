@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <sstream>
 
 using namespace std;
 
@@ -53,5 +54,26 @@ int main() {
     rock.addStudent({"John Doe", 15, 123456, 'A'});
     rock.addStudent({"Micheal Wilson", 17, 122345, 'B'});
     rock.addStudent({"Dean Johnson", 17, 125983, 'A'});
-    rock.findByGrade('A');
+    
+
+    while (true) {
+        string input, token;
+        vector<string> args;
+
+        cout << "> ";
+        getline(cin, input);
+        istringstream stream(input);
+        while (getline(stream, token, ' ')) args.push_back(token);
+
+        if (args[0] == "findById" || args[0] == "fbi") {
+            rock.findById(stoi(args[1]));
+        } else if (args[0] == "findByGrade" || args[0] == "fbg") {
+            rock.findByGrade(args[1][0]);
+        } else if (args[0] == "newStudent" || args[0] == "ns") {
+            Student s;
+            while (true) {
+                cout << ""
+            }
+        } 
+    }
 }
