@@ -46,6 +46,10 @@ class School {
                 }
             }
         }
+        void removeStudent(int id_num) {
+            for (int i{}; i < students.size(); i++) if (students[i].id == id_num) {students.erase(students.begin() + i); break;}
+        }
+        void listStudents() {for (auto s : students) cout << s << endl;}
 };
 
 
@@ -61,19 +65,46 @@ int main() {
         vector<string> args;
 
         cout << "> ";
-        getline(cin, input);
+        restart:;
+        getline (cin, input);
         istringstream stream(input);
         while (getline(stream, token, ' ')) args.push_back(token);
+        if (args.size() == 0) goto restart;
 
         if (args[0] == "findById" || args[0] == "fbi") {
-            rock.findById(stoi(args[1]));
+            if (args.size() == 1) {
+                cout << "id> ";
+                int id; cin >> id;
+                rock.findById(id);
+            } else rock.findById(stoi(args[1]));
         } else if (args[0] == "findByGrade" || args[0] == "fbg") {
-            rock.findByGrade(args[1][0]);
+            if (args.size() == 1) {
+                cout << "grade> ";
+                char grade; cin >> grade;
+                rock.findByGrade(grade);
+            } else rock.findByGrade(args[1][0]);
         } else if (args[0] == "newStudent" || args[0] == "ns") {
-            Student s;
-            while (true) {
-                cout << ""
-            }
-        } 
+            Student s{};
+            
+            cout << "name> ";
+            getline (cin, s.name);
+
+            cout << "age> ";
+            cin >> s.age;
+
+            cout << "id> ";
+            cin >> s.id;
+
+            cout << "grade> ";
+            cin >> s.grade;
+            
+            rock.addStudent(s);
+        } else if (args[0] == "removeStudent" || args[0] == "rms") {
+            if (args.size() == 1) {
+                cout << "id> ";
+                int id; cin >> id;
+                rock.removeStudent(id);
+            } else rock.removeStudent(stoi(args[1]));
+        } else if (args[0] == "q") {break;} else if (args[0] == "ls") {rock.listStudents();}
     }
 }
