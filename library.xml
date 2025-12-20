@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Person>
-    <Name>John Doe</Name>
-    <Age>25</Age>
-</Person>
+<root>
+<Book name="The Great Gatsby">
+    <Author>Francis Scott Key Fitzgerald</Author>
+    <Published>1925</Published>
+    <Genre>Tragedy</Genre>
+    <Synopsis>
+        Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with Jay Gatsby, a mysterious millionaire obsessed with reuniting with his former lover, Daisy Buchanan.
+    </Synopsis>
+</Book>
+<Book name="My Book">
+    <Author>Jay</Author>
+    <Published>2025</Published>
+    <Genre>Playful</Genre>
+    <Synopsis>A Story about life</Synopsis>
+</Book>
+</root>
