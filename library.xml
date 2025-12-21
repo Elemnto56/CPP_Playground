@@ -1,17 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
-<Book name="The Great Gatsby">
-    <Author>Francis Scott Key Fitzgerald</Author>
-    <Published>1925</Published>
-    <Genre>Tragedy</Genre>
-    <Synopsis>
-        Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with Jay Gatsby, a mysterious millionaire obsessed with reuniting with his former lover, Daisy Buchanan.
-    </Synopsis>
-</Book>
-<Book name="My Book">
-    <Author>Jay</Author>
-    <Published>2025</Published>
-    <Genre>Playful</Genre>
-    <Synopsis>A Story about life</Synopsis>
-</Book>
-</root>
+<?xml version="1.0"?>
+<main>
+    <books>
+        <book title="The Great Gatsby">
+            <author>Francis Scott Key Fitzgerald</author>
+            <publication_date>1-10-1925</publication_date>
+            <genre>Tragedy</genre>
+            <synopsis>
+                Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with Jay Gatsby, a mysterious millionaire obsessed with reuniting with his former lover, Daisy Buchanan.
+            </synopsis>
+        </book>
+        <book title="My Book">
+            <author>Jay</author>
+            <publication_date>20-12-2025</publication_date>
+            <genre>Playful</genre>
+            <synopsis>A Story about life</synopsis>
+        </book>
+    </books>
+    <patrons>
+        <member id="123">
+            <name>John Doe</name>
+            <email>jdoe@1234.com</email>
+            <password>fsgbhregdfss</password>
+            <membership>Patron</membership>
+            <join_date>12/10/25</join_date>
+            <expiration_date>1/10/30</expiration_date>
+        </member>
+        <member id="emckJ">
+            <name>Jane Doe</name>
+            <email>jdoe@cc.com</email>
+            <password>À®µ½ºµÄ²</password>
+            <membership>Patron</membership>
+            <join_date>12-21-25</join_date>
+            <expiration_date>12-21-29</expiration_date>
+        </member>
+    </patrons>
+</main>
