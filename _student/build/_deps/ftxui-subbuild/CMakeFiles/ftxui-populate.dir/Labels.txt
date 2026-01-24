@@ -1,0 +1,14 @@
+# Target labels
+ ftxui-populate
+# Source files and their labels
+/workspaces/CPP_Playground/_student/build/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate
+/workspaces/CPP_Playground/_student/build/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate.rule
+/workspaces/CPP_Playground/_student/build/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate-complete.rule
+/workspaces/CPP_Playground/_student/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-build.rule
+/workspaces/CPP_Playground/_student/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-configure.rule
+/workspaces/CPP_Playground/_student/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-download.rule
+/workspaces/CPP_Playground/_student/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-install.rule
+/workspaces/CPP_Playground/_student/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-mkdir.rule
+/workspaces/CPP_Playground/_student/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-patch.rule
+/workspaces/CPP_Playground/_student/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-test.rule
+/workspaces/CPP_Playground/_student/build/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-update.rule

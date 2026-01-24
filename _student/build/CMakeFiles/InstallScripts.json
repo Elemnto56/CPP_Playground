@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/workspaces/CPP_Playground/_student/build/cmake_install.cmake",
+		"/workspaces/CPP_Playground/_student/build/_deps/ftxui-build/cmake_install.cmake",
+		"/workspaces/CPP_Playground/_student/build/_deps/ftxui-build/examples/cmake_install.cmake",
+		"/workspaces/CPP_Playground/_student/build/_deps/ftxui-build/doc/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

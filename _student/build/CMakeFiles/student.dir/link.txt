@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/student.dir/link.d CMakeFiles/student.dir/studentManage.cpp.o -o student
